@@ -28,19 +28,14 @@ var articles = {
                         This is the content of my second article
                     <p>
                 `};
-    articleThree : {title:'Article One | Rudri Kansara',
+    articleThree : {title:'Article Three | Rudri Kansara',
         heading:'Article One',
         date:'September 19,2016',
         content:`
                     <p>
-                        This is the content of my first article.This is the content of my first article.This is the content of my first article.This is the content of my first article.This is the content of my first article.This is the content of my first article.
+                        This is the content of my third article.
                     </p>
-                    <p>
-                        This is the content of my first article.This is the content of my first article.This is the content of my first article.This is the content of my first article.This is the content of my first article.This is the content of my first article.
-                    </p>
-                    <p>
-                        This is the content of my first article.This is the content of my first article.This is the content of my first article.This is the content of my first article.This is the content of my first article.This is the content of my first article.
-                    </p>`};
+                  `};
 };
 function createTemplate(data){
     var title=data.title;
