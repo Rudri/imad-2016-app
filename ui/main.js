@@ -8,7 +8,7 @@ element.innerHTML = 'new value';
 
 //Move the image 
 
-var log = document.getElementById('img');
+var img = document.getElementById('img');
 log.onclick = function () {
     log.style.marginLeft="100px";
 }
