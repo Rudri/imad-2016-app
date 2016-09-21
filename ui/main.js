@@ -10,5 +10,5 @@ element.innerHTML = 'new value';
 
 var img = document.getElementById('img');
 log.onclick = funtion(){
-    img.style.margin="left-margin:100px";
+    log.style.marginLeft="100px";
 }
