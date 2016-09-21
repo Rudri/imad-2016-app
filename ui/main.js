@@ -8,7 +8,7 @@ element.innerHTML = 'new value';
 
 //Move the image 
 
-var moveLeft = '0';
+var moveLeft = 0;
 var img = document.getElementById('madi');
 function moveRight() {
     var moveLeft = moveLeft + 10;
