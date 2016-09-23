@@ -3,7 +3,7 @@ var button = document.getElementById('counter');
 
 button.onclick = function(){
     
-    //Make a request to the counter endpoint
+    //Create a request object
     var request = XMLHttpRequest();
     
     //Capture the response and store it in a variable
@@ -18,5 +18,8 @@ button.onclick = function(){
         }
         //Not done yet
     };
-    //Render the variable in a correct span
+    //Make the request
+    request.open('GET','http://rudri.imad.hasura-app.io',true);
+    request.send(null);
+    
 };
